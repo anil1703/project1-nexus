@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=League+Spartan:wght@300;400&display=swap');
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0px;
+    height: 100vh;
+}
+
+
+.login-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+    font-size: 35px;
+    font-family: 'Cookie', cursive;
+    color: white;
+}
+
+.image-login{
+    background-image: url("https://res.cloudinary.com/dafmi9027/image/upload/v1703840612/wallpaperflare.com_wallpaper_3_pof7x2.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.login-box{
+    background-color:white;
+    border-radius: 20px;
+    min-width: 500px;
+    margin: auto;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px;
+   
+}
+
+.logn-title{
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    border-bottom: 4px solid #5f7f55;
+    letter-spacing: 7px;
+    border-bottom-left-radius: 25px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.cred-box{
+    height: 45px;
+    width: 350px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: solid;
+    font-family: poppins;
+    padding-left: 13px;
+    border-width: 2px;
+    border-color: #C9E4C5;
+
+}
+
+.cred-text{
+    margin-bottom: 4px;
+    letter-spacing: 3px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+
+}
+
+.login-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cred-box-space{
+    margin-top: 10px;
+}
+
+.login-butn-div{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.butn-style{
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #5f7f55;
+    color: white;
+    font-size: 16px;
+
+}
+
+.butn-style:hover{
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    cursor: pointer;
+    
+}
+span{
+    color: #5f7f55;
+    
+}
+
+.or-div{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.icons-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon-style{
+    font-size: 30px;
+    color: #5f7f55;
+    margin-top: 9px;
+    
+}
+
+.icon-box{
+    background-color: #C9E4C5;
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
+    text-align: center;
+}
+
+.icon-box:hover{
+    cursor: pointer;
+    color:#C9E4C5;
+    background-color: #5f7f55;
+}
+
+.icon-style:hover{
+    color: #C9E4C5;
+}
+
+.sign-up-para{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.line-small-screen{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+
+    .line-big-screen{
+        display: none;
+    }
+
+    .line-small-screen{
+        display: block;
+
+    }
+    .image-login{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+     
+        
+    }
+
+    .login-text{
+        font-size: 21px;
+        min-width: 0px;
+        padding: 10px;
+    }
+    .login-box{
+        margin: 0px;
+        min-width: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        
+    }
+    .cred-box{
+        width: 0px;
+        min-width: 250px;
+
+        
+    }
+
+    .login-successfully{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: none;
+        
+    }
+    
+
+}
+
+.login-successfully{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    display: none;
+    
+}
+
+
